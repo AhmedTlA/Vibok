@@ -1,0 +1,272 @@
+
+<html lang="en">
+
+<head>
+    <link rel="icon" type="image/png" href="./assets/logo-Vibok.jpg" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/7896a1d885.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8" translate="yes">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Vibok</title>
+</head>
+
+<body class="light">
+
+    <nav class="navbar navbar-expand-lg mb-7 navbar-light" id="navbar">
+        <div class="container-fluid container">
+            <a class="navbar-brand fw-bolder" href="./">Vibok</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon "></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link text-center" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            لغة <svg id="arrow" width="10" height="10" viewBox="0 0 44 30" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path id="inner-arrow"
+                                    d="M19.5576 28.1655L0.963867 9.57178C-0.321289 8.28662 -0.321289 6.20849 0.963867 4.93701L4.05371 1.84717C5.33887 0.562012 7.41699 0.562012 8.68848 1.84717L21.8682 15.0269L35.0478 1.84717C36.333 0.562012 38.4111 0.562012 39.6826 1.84717L42.7725 4.93701C44.0576 6.22217 44.0576 8.30029 42.7725 9.57178L24.1787 28.1655C22.9209 29.4507 20.8428 29.4507 19.5576 28.1655Z"
+                                    fill="black" />
+                            </svg>
+                        </a>
+                        <ul class="dropdown-menu text-center overflow-hidden" id="dropdown-menu"
+                            aria-labelledby="navbarDropdown" style="transition: 0.3s;">
+
+                            <li><a class="dropdown-item rounded" href="./LangAR.html">Arabic</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item rounded" href="./">English</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+                <ul class="navbar-nav gap-3 text-center">
+                    <li class="nav-item "><a href="#Mission" class="nav-link ">مهمة</a></li>
+                    <li class="nav-item"><a href="#Products" class="nav-link">منتوجات</a></li>
+                    <li class="nav-item"><a href="#Testimonials" class="nav-link">تصريحات</a></li>
+                    <div class="d-flex gap-3 justify-content-center">
+                        <a target="_blank"
+                            href="https://www.facebook.com/profile.php?id=100090601599926&mibextid=LQQJ4d"
+                            class="nav-link"><i style="scale: 1.5;" class="fa-brands fa-square-facebook "
+                                id="facebook"></i></a>
+                        <a target="_blank" href="https://instagram.com/vibok.studio1?igshid=YmMyMTA2M2Y="
+                            class="nav-link"><i style="scale: 1.5;" class="fa-brands fa-instagram "
+                                id="instagram"></i></a>
+                    </div>
+            </div>
+            </ul>
+        </div>
+        </div>
+    </nav>
+    <i class="fa-solid fa-circle-half-stroke position-fixed  py-3 px-3 bg-dark text-white rounded" id="toggle"
+        style="right:30; bottom: 100; cursor: pointer;z-index: 99;"></i>
+
+    <div class="container mb-5" id="home">
+        <div class="row">
+            <div class="col-md-6 mx-auto">
+                <div class="position-relative">
+                    <img src="./assets/software-developer.png" class="img-fluid">
+                    <div class="content">
+                        <h1 class="text-center fw-bolder">فيبوك <span>&lt;/&gt;</span></h1>
+                        <p class="fs-5 text-center">حلول برمجة الشركات المبتكرة. البرمجيات والويب
+                        تطبيقات مخصصة لمساعدتك على الازدهار.</p>
+                    </div>
+
+                    <a href="#more" class="position-relative start-50 translate-middle" style="top: -50;"><i
+                            class="fa fa-chevron-down text-white bounce" style="font-size: xx-large; top: 90%;"></i></a>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a href="#home" id="up" class="position-fixed py-3 px-3 bg-dark rounded"
+        style="right:30; bottom: 30; transition: 0.3s; visibility:hidden ; opacity: 0; cursor: pointer; z-index: 99;"><i
+            class="fa fa-chevron-up"></i></a>
+
+    <section class='mb-5' style="margin-top: 7rem;" id="more">
+        <div class="container">
+            <h1 class="text-center mb-5">نحن فيبوك</h1>
+            <div class="row">
+                <div class="col ">
+                    <img data-aos="fade-up" class='img-fluid'
+                        src="./assets/young-creative-people-working-together-with-laptop-group-cool-guys-working-new-project-while-spending-time-modern-office 1.png"
+                        alt="pic">
+                </div>
+                <div class="col  ">
+                    <div data-aos="fade-left" class="content2">
+                    <p>شغوفون بعملنا وملتزمون بتزويد عملائنا بأفضل المنتجات و
+                        الخدمات المتاحة.</p>
+                    <p>نحن نسعى جاهدين لضمان أن كل منتج من منتجاتنا مصمم خصيصًا لتلبية احتياجات عملائنا وذاك
+                        كل منتج يقدم ملفًا فريدًا
+                        وحل مبتكر بأعلى معايير الجودة.</p>
+                    <p> من خلال خبرتنا ومعرفتنا ، نحن على ثقة من أنه يمكننا تزويدك بالأدوات التي
+                        تحتاجها إلى النجاح.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Mission" class="mb-5">
+
+        <div class="container">
+            <h1 class="text-center mb-5">مهمة</h1>
+            <div class="row">
+                <div class="col">
+                    <img data-aos="fade-up" class="img-fluid" src="./assets/business-idea-3683781_1920 1.png" alt="pic">
+                </div>
+                <div class="col">
+                    <div data-aos="fade-left" class="content2">
+                        <p>إنها المساهمة في دفع عجلة التنمية إلى الأمام من خلال ما نقدمه
+                            منتجات مميزة و
+                            سواء كانت مدفوعة أو مفتوحة المصدر أو خيرية ومساعدة المبرمجين والشركات على
+                            اختر أفضل البرامج
+                            من خلال ما نقدمه داخل الشركة أو خارجها كمؤثرين في العالم
+                            من البرمجة.</p>
+                        
+                        <p>لنجعل العالم أفضل معًا ، ونبذل قصارى جهدنا.</p>
+                        
+                        <p>اقترح فكرة لنا <a target="_blank" href="https://www.facebook.com/messages/t/102658496100035"
+                                class="btn btn-primary">ارسل
+                                اقتراح</a> </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="Products" class="mb-5">
+        <h1 class="text-center mb-5">منتجات</h1>
+        <div class="container ">
+            <div class="row  d-flex  gap-5 ">
+                <div class="col d-flex justify-content-center py-3 px-3 border border-light "
+                    style="border-radius: 2.3rem;">
+                    <a data-aos="flip-up" data-aos-duration="700" href="#"
+                        class="card py-3 px-3 text-decoration-none text-dark" style="width: 20rem;">
+                        <img src="./assets/logo-app.png" class="card-img-top" alt="pic">
+                        <div class="card-body">
+                            <h5 class="card-title">عنوان</h5>
+                            <p class="card-text">لنجعل العالم أفضل معًا ، ونبذل قصارى جهدنا. >> أي نص.
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col d-flex justify-content-center py-3 px-3 border border-light"
+                    style="border-radius: 2.3rem;">
+                    <a data-aos="flip-up" data-aos-duration="1100" href="#"
+                        class="card py-3 px-3 text-decoration-none text-dark" style="width: 20rem;">
+                        <img src="./assets/logo-app.png" class="card-img-top" alt="pic">
+                        <div class="card-body">
+                            <h5 class="card-title">عنوان</h5>
+                            <p class="card-text">لنجعل العالم أفضل معًا ، ونبذل قصارى جهدنا. >> أي نص.
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col d-flex justify-content-center py-3 px-3 border border-light"
+                    style="border-radius: 2.3rem;">
+                    <a data-aos="flip-up" data-aos-duration="1500" href="#"
+                        class="card py-3 px-3 text-decoration-none text-dark" style="width: 20rem;">
+                        <img src="./assets/logo-app.png" class="card-img-top" alt="pic">
+                        <div class="card-body">
+                            <h5 class="card-title">عنوان</h5>
+                            <p class="card-text">لنجعل العالم أفضل معًا ، ونبذل قصارى جهدنا. >> أي نص.
+                            </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="Testimonials" class="mb-5">
+        <div class="container px-6">
+            <h1 class="text-center mb-5">التوصيات</h1>
+            <div class="row d-flex justify-content-center gap-5">
+                <div class="col-4 d-flex justify-content-center gap-5 py-3 px-3 border border-light"
+                    style="border-radius: 2.3rem;">
+                    <a data-aos="flip-up" href="#" class="card py-3 px-3 text-decoration-none text-dark"
+                        style="width: 25rem;">
+                        <img src="./assets/youtube.png" class="card-img-top" alt="pic">
+                        <div class="card-body">
+                            <h5 class="card-title">سومال كارت</h5>
+                            <p class="card-text">SEO<span>- اسم الشركة</span>
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-4 d-flex justify-content-center gap-5 py-3 px-3 border border-light"
+                    style="border-radius: 2.3rem;">
+                    <a data-aos="flip-up" href="#" class="card py-3 px-3 text-decoration-none text-dark"
+                        style="width: 25rem;">
+                        <img src="./assets/youtube.png" class="card-img-top" alt="pic">
+                        <div class="card-body">
+                            <h5 class="card-title">سومال كارت</h5>
+                            <p class="card-text">SEO<span>- اسم الشركة</span>
+                            </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mb-5">
+        <div class="container">
+            <h1 class="text-center mb-5">فريقنا</h1>
+            <div class="row gap-3">
+                <div class="col text-center py-3 px-3 border border-light " data-aos="fade-left"
+                    style="border-radius: 2.3rem;">
+                    <img class="rounded mb-4" src="./assets/Rectangle 14.png" alt="pic">
+                    <h5>لاري إف . بورنيت</h5>
+                    <p>CEO</p>
+                </div>
+                <div class="col text-center py-3 px-3 border border-light " data-aos="fade-left"
+                    style="border-radius: 2.3rem;">
+                    <img class="rounded mb-4" src="./assets/Rectangle 14.png" alt="pic">
+                    <h5>لاري إف . بورنيت</h5>
+                    <p>CEO</p>
+                </div>
+                <div class="col text-center py-3 px-3 border border-light " data-aos="fade-right"
+                    style="border-radius: 2.3rem;">
+                    <img class="rounded mb-4" src="./assets/Rectangle 14.png" alt="pic">
+                    <h5>لاري إف . بورنيت</h5>
+                    <p>CEO</p>
+                </div>
+                <div class="col text-center py-3 px-3 border border-light " data-aos="fade-right"
+                    style="border-radius: 2.3rem;">
+                    <img class="rounded mb-4" src="./assets/Rectangle 14.png" alt="pic">
+                    <h5>لاري إف . بورنيت</h5>
+                    <p>CEO</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class=" text-center text-white py-4" style="background-color: #1c2069;">
+        <p>Development By Tlaidjia.Ahmed</p>
+        <a href="ahmedtla.000webhostapp.com/">click to see Portfolio</a>
+        <h3>© Copyright 2023 are saved</h3>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>

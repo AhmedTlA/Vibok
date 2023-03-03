@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#instagram{
+    background: linear-gradient(180deg, #405DE6 0%, #5B51D8 15.1%, #833AB4 29.69%, #C13584 43.75%, #E1306C 58.33%, #FD1D1D 70.83%, #F56040 79.69%, #F77737 85.94%, #FCAF45 92.19%, rgba(255, 220, 128, 0.98) 100%);
+    background-clip: text;
+    color: transparent;
+}
+#instagram:hover{
+    background: linear-gradient(180deg, #949fd3 0%, #8d89c7 15.1%, #9471ac 29.69%, #ad688f 43.75%, #bd5d7d 58.33%, #db5b5b 70.83%, #eb9380 79.69%, #e0a78a 85.94%, #d6b17d 92.19%, rgba(224, 208, 167, 0.98) 100%);
+background-clip: text;
+    color: transparent;
+}
+#facebook{
+    color: #4267b2;
+}
+#facebook:hover{
+    color: rgb(81, 81, 177);
+}
+
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    max-width: 1500px;
+}
+.col-md-6 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+.bounce{
+    animation: bounce 1s infinite;
+   
+}
+
+.light{
+    color: black !important;
+    background-color: white;
+    transition: 0.3s;
+}
+.Dark{
+    color: white !important;
+    background-color: black;
+    transition: 0.3s;
+}
+
+@keyframes bounce {
+0%{
+    transform: translateY(0);
+}
+    10% {
+        transform: translateY(-20px);
+    }
+
+    20% {
+        transform: translateY(0px);
+    }
+    30% {
+            transform: translateY(-10px);
+        }
+     40% {
+                    transform: translateY(0px);
+        }
+                50% {
+                    transform: translateY(-5px);
+                }
+        100% {
+            transform: translateY(0px);
+        }
+}
+
+
+.content {
+    position: absolute;
+    left: 30%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 350px;
+    background-color: rgba(255, 255, 255, 0.598);
+}
+
+
+.content2 {
+    font-size: 30px;
+}
+
+
+#arrow{
+    transform: rotate(90deg);
+    transition: 0.3s;
+    
+}
+
+.dropdown-menu.show{
+    height: 93px;
+        padding: 5;
+}
+.dropdown-menu{
+    display: block;
+    height: 0;
+    padding: 0;
+    margin: 7;
+}
+
+
+  @media (max-width: 1200px){ 
+  .content2{
+    font-size: 25px;
+  }
+}
+  @media (max-width: 992px) {
+   .content2{
+    font-size: 22px;
+  }
+  .btn {
+      scale: 0.6;
+  }
+}
+  @media (max-width: 768px) {
+    .content {
+            scale: 0.5;
+            left: 15%;
+            top: 50%;
+            transform: translateX(-50%) translateY(-70%);
+        }
+   .content2{
+    font-size: 16px;
+  }
+}
+  @media (max-width: 576px) {
+    .content {
+            scale: 0.45;
+            left: 15%;
+            top: 50%;
+            transform: translateX(-70%) translateY(-100%);
+        }
+   .content2{
+    font-size: 11px;
+  }
+}
